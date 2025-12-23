@@ -1,0 +1,48 @@
+==================================================
+               STUDENT GRADE CALCULATOR
+==================================================
+
+Enter number of students:  3
+
+=== STUDENT 1 ===
+Student name:  Sarah Johnson
+Enter marks (0-100):
+Math:  56
+Science:  67
+English:  78
+
+=== STUDENT 2 ===
+Student name:  Raghava
+Enter marks (0-100):
+Math:  89
+Science:  98
+English:  86
+
+
+=== STUDENT 3 ===
+Student name:  Manish
+Enter marks (0-100):
+Math:  89
+Science:  99
+English:  78
+
+==================================================
+                   RESULTS SUMMARY
+==================================================
+Name                 |   Avg | Grade | Comment
+------------------------------------------------------------
+Sarah Johnson        |  67.0 |   D   | Needs Improvement. Please study more.
+Raghava              |  91.0 |   A   | Excellent! Keep up the great work!
+Manish               |  88.7 |   B   | Very Good! You're doing well.
+
+==================================================
+                  CLASS STATISTICS
+==================================================
+Total Students: 3
+Class Average: 82.2
+Highest Average: 91.0 (Raghava)
+Lowest Average: 67.0 (Sarah Johnson)
+
+==================================================
+       Thank you for using the Grade Calculator!
+==================================================
