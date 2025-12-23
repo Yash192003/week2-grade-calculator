@@ -1,0 +1,44 @@
+TEST CASE 1: Valid Input (Multiple Students)
+INPUT:
+Enter number of students: 2
+Student 1:
+Name: John Smith
+Math: 85
+Science: 92
+English: 88
+Student 2:
+Name: Sarah Johnson
+Math: 78
+Science: 81
+English: 85
+EXPECTED OUTPUT:
+Passed
+
+TEST CASE 2 : Invalid Student Count
+INPUT:
+Enter number of students: two
+EXPECTED OUTPUT:
+-Error message displayed
+-User prompted again
+
+TEST CASE 3: Negative Student Count
+INPUT:
+Enter number of students: -3
+EXPECTED OUTPUT:
+-Error message displayed
+-User prompted again
+
+TEST CASE 4:  Invalid Marks(Out of Range)
+INPUT:
+Math: 120
+Science: -5
+English: 80
+EXPECTED OUTPUT:
+-Re-prompt until valid marks entered
+
+TEST CASE 5: Non-Numeric Marks
+INPUT:
+Math: eighty
+EXPECTED OUTPUT:
+- "Invalid input" message
+-User prompted again
